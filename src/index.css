@@ -1,0 +1,106 @@
+body{
+    background-image: url("../public/fondo.png");
+  }
+  
+  .titulo{
+    color:black;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 6px 6px 10px white;
+  }
+  
+  .navbar {
+    background: #d8db26;
+    padding:30px;
+    text-decoration: none;
+  }
+  
+  .NavLink {
+    color:rgb(240, 86, 86);
+  }
+  
+  .decoration {
+    text-decoration: none;
+  }
+  
+  .container{
+    margin-top: 20px;
+  }
+  
+  .card{
+    border-radius:80px;
+    background-color: rgb(243, 237, 226);
+  }
+  
+  .card-title{
+    color:#d1aa28;
+    text-shadow: 0px 3px 4px rgb(199, 115, 115);
+  }
+  
+  .card-text{
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .ingredientes{
+    font-weight: bold;
+  }
+  
+  .botones{
+    display:flex;
+    height:46px;
+    text-align:center;
+  }
+  
+  .banner {
+    background-image: url("../public/pizzanav.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 220px;
+    color: rgb(20, 8, 8);
+    text-shadow: 0px 3px 5px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .btn {
+    margin-left: 25px;
+  }
+  
+  .card-title2 {
+    text-align: center;
+    font-size: 35px;
+    color:#d1aa28;
+    text-shadow: 2px 4px 4px rgb(199, 115, 115);
+  }
+  
+  .card-text2 {
+    text-align:justify;
+    margin-top: 30px;
+  }
+  
+  .valors {
+    color:orange;
+    text-shadow: 0px 0px 6px rgb(199, 115, 115);
+    margin-top: 40px;
+  }
+  
+  .btn.btn-warning{
+    text-align: center;
+    margin-left: 370px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .pedido{
+    text-align: center;
+    font-size: 35px;
+    color: #d1aa28;
+    text-decoration: underline;
+  }
